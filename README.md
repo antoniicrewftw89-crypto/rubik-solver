@@ -1,5 +1,10 @@
 # 🧩 Rubik Solver
 
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-8-646CFF?logo=vite&logoColor=white)
+![Three.js](https://img.shields.io/badge/three.js-3D-000000?logo=three.js&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES2023-F7DF1E?logo=javascript&logoColor=black)
+
 Aplicación web que resuelve un cubo de Rubik 3×3 y **anima la solución paso a paso**
 en un cubo 3D. Puedes introducir el cubo de dos formas: pintando las caras a mano o
 escaneándolas con la cámara.
