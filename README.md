@@ -1,5 +1,7 @@
 # 🧩 Rubik Solver
 
+[![Demo en vivo](https://img.shields.io/badge/▶_Demo_en_vivo-rubik--solver--rho.vercel.app-7c5cff?style=for-the-badge)](https://rubik-solver-rho.vercel.app)
+
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-8-646CFF?logo=vite&logoColor=white)
 ![Three.js](https://img.shields.io/badge/three.js-3D-000000?logo=three.js&logoColor=white)
@@ -8,6 +10,8 @@
 Aplicación web que resuelve un cubo de Rubik 3×3 y **anima la solución paso a paso**
 en un cubo 3D. Puedes introducir el cubo de dos formas: pintando las caras a mano o
 escaneándolas con la cámara.
+
+🔗 **Pruébalo aquí: [rubik-solver-rho.vercel.app](https://rubik-solver-rho.vercel.app)**
 
 ## Características
 
