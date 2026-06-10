@@ -40,9 +40,16 @@ del movimiento (eje, capas, ángulo) alimenta tanto la lógica como la animació
 visor, así que ambos giran en el mismo sentido físico. El estado se serializa en el
 orden **F R U D L B** que espera el solver.
 
-## Desarrollo
+## Cómo ejecutar
+
+**Windows (lo más fácil):** doble click a `iniciar.bat` — instala las
+dependencias la primera vez y abre el servidor en <http://localhost:5173>.
+
+**Manual:**
 
 ```bash
+git clone https://github.com/antoniicrewftw89-crypto/rubik-solver.git
+cd rubik-solver
 npm install
 npm run dev      # servidor de desarrollo (http://localhost:5173)
 npm run build    # build de producción
