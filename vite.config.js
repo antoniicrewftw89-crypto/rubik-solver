@@ -7,4 +7,7 @@ export default defineConfig({
     // rubiks-cube-solver es CJS — Vite lo pre-bundlea como ESM automáticamente
     include: ['rubiks-cube-solver'],
   },
+  test: {
+    environment: 'node',
+  },
 })
