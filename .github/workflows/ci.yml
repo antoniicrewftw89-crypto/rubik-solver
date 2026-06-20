@@ -1,4 +1,4 @@
-# CI de rubik-solver: tests + build en cada push.
+# CI de rubik-solver: lint + tests + build en cada push.
 name: CI
 
 on:
@@ -16,5 +16,6 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+      - run: npm run lint
       - run: npm test
       - run: npm run build
