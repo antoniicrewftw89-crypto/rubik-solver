@@ -18,7 +18,7 @@
     "@react-three/fiber": "^9.6.0",
     "cube-solver": "^2.4.1",
     "react": "^19.2.4",
-    "react-dom": "^19.2.4",
+    "react-dom": "^19.2.7",
     "rubiks-cube-solver": "^1.2.0",
     "three": "^0.184.0"
   },
