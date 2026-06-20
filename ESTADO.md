@@ -18,6 +18,9 @@
 - Por definir. (Proyecto en buen estado, desplegado y funcionando.)
 
 ## Decisiones recientes
+- Adopta el **Workspace Design System** (`C:\Workspace\design-system`) como **puente
+  de contrato**: expone los nombres del contrato como alias sobre su identidad
+  glass/violeta (look intacto; sin redefinir `--muted`/`--accent` por colisión).
 - Detección de color por **matiz HSL** (resistente a la iluminación).
 - Estado del cubo serializado en orden **F R U D L B** (lo que espera el solver Fridrich).
 

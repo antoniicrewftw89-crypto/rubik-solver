@@ -39,6 +39,28 @@
   --glow:      0 0 0 1px rgba(124, 92, 255, 0.4), 0 8px 30px -6px rgba(124, 92, 255, 0.5);
   --font:      'Inter', system-ui, 'Segoe UI', sans-serif;
   --font-head: 'Space Grotesk', var(--font);
+
+  /* Puente al Workspace Design System (C:\Workspace\design-system): expone los
+     NOMBRES del contrato como alias sobre la identidad propia (glass/violeta).
+     Así un componente compartido encaja sin cambiar el look. --border ya cumple. */
+  --background: var(--bg);
+  --foreground: var(--text);
+  --card: var(--glass);
+  --card-foreground: var(--text);
+  --popover: var(--glass-2);
+  --popover-foreground: var(--text);
+  --primary: var(--violet);
+  --primary-foreground: #0b0b16;
+  --secondary: var(--glass-2);
+  --secondary-foreground: var(--text);
+  --muted-foreground: var(--muted);
+  /* OJO: no redefinimos --muted ni --accent: rubik ya los usa (texto / fallback). */
+  --destructive: var(--err);
+  --success: var(--ok);
+  --warning: var(--warn);
+  --input: var(--border-hi);
+  --ring: var(--violet);
+  --radius: var(--r);
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
